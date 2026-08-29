@@ -13,12 +13,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { StatCard } from "@/components/dashboard/stat-card";
 import { ChartCard } from "@/components/dashboard/chart-card";
 import {
-  MonthlyApplicationsChart,
-  MonthlyInvestmentChart,
   IpoProfitLossChart,
-  DematWiseChart,
   IpoStatusChart,
-  MoneyGivenVsBorrowedChart,
   ReceivableVsPayableChart,
 } from "@/components/dashboard/charts";
 

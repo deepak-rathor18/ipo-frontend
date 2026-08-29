@@ -20,7 +20,7 @@ export const moneyService = {
       delete params.status;
     }
 
-    const { data } = await apiClient.get<PaginatedResponse<MoneyTransaction>>(
+    const { data } = await apiClient.get<Paginated<MoneyTransaction>>(
       "/money",
       {
         params,
